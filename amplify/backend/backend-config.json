@@ -1,16 +1,8 @@
 {
-  "auth": {
-    "univ29ae1a75": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    }
-  },
-  "storage": {
-    "univs3": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation"
-    }
-  }
+	"auth": {
+		"cognitocf0c6096": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
 }
